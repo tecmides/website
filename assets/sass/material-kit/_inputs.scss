@@ -39,7 +39,7 @@
   label {
     font-size: $placeholder-font-size;
     line-height: $line-height;
-    color: $mdb-input-placeholder-color;
+    color: #263238;
     font-weight: 400;
   }
 
@@ -47,7 +47,7 @@
   label.control-label {
     font-size: $static-font-size;
     line-height: $static-line-height;
-    color: $mdb-input-placeholder-color;
+    color: #263238;
     font-weight: 400;
     margin: 16px 0 0 0; // std and lg
   }
@@ -146,7 +146,7 @@
 
   // Placeholders and and labels-as-placeholders should look the same
   @include material-placeholder {
-    color: $mdb-input-placeholder-color;
+    color: #263238;
     font-weight: 400;
 }
 

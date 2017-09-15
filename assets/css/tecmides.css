@@ -1,0 +1,43 @@
+.dosis {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+}
+
+.dosis-bold {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+}
+
+.body-paragraph {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.body-paragraph-center {
+  text-align: center;
+  text-justify: inter-word;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.body-paragraph-right {
+  text-align: right;
+  text-justify: inter-word;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.img-paragraph {
+  padding-right: 10px;
+}
+
+.container-parallax {
+  background-color: #CCCCCC;
+}
+
+.roboto-400 {
+  font-size: 15px;
+  font-weight: 400 !important;
+}
