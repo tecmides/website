@@ -152,12 +152,9 @@ $db->set_charset("utf8");
                                 $termo = $db->query("SELECT termo FROM turma WHERE id=$id");
                                 $textoTermo = $termo->fetch_assoc()["termo"];
                                 echo "
-                                <h2 class='dosis-bold' style='text-align: center;'>TERMO DE COMPROMISSO</h2><br>
+                                <h2 class='dosis-bold' style='text-align: center;'>TERMO DE CONSENTIMENTO LIVRE ESCLARECIDO</h2><br>
                                 <div class='body-paragraph'>
-                                <p>Prezado(a) participante:</p>
-                                <p>"; print_r($textoTermo);
-                                echo "</p><br>
-
+                                {$textoTermo}
                                 <div class='form-inline'>
                                 <div class='form-group'>
                                 Eu, &nbsp
